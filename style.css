@@ -1,0 +1,20 @@
+.hero {
+    display: flex;
+    flex-flow: column;
+}
+
+.hero__title {
+
+}
+
+.hero__main {
+
+}
+
+.hero__secondary {
+
+}
+
+.hero__footer {
+    
+}
