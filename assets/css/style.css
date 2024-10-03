@@ -3,9 +3,9 @@
 @import "fonts.css";
 @import "variables.css";
 @import "typography.css";
+@import "cta.css";
 @import "header.css";
 @import "hero.css";
-@import "cta.css";
 
 html {
   font-size: 18px;

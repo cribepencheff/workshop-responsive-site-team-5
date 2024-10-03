@@ -15,13 +15,13 @@
 /* Default CTA */
 .cta--default {
   background-color: var(--color-primary);
-  border-color: var(--color-primary);
+  border-color: var(--color-white);
 }
 
 .cta--default:hover,
 .cta--default:focus {
   background-color: var(--color-primary-hover);
-  border-color: var(--color-primary-hover);
+  border-color: var(--color-white);
 }
 
 /* Hollow CTA */

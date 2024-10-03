@@ -9,31 +9,48 @@
     display: none;
 }
 
+.quick-links {
+    display: flex;
+    gap: 1rem;
+}
+
 .fa-magnifying-glass {
     color: var(--color-primary-ltr);
+    align-self: center;
 }
 
-.nav__list {
-    display: flex;
-    text-decoration: none;
-}
-
-button {
+.hide-for-mobile {
     display: none;
 }
 
-@media (min-width: 900px) {
+.hide-for-tablet {
+    display: none;
+}
+
+@media (min-width: 950px) {
     .header__nav {
         display: flex;
         flex-direction: row;
         color: var(--color-primary-ltr);
     }
 
-    button {
+    .nav__list {
         display: flex;
+        list-style: none;
+        gap: 1.5rem;
     }
 
     .fa-bars {
         display: none;
+    }
+
+    .hide-for-mobile {
+        display: flex;
+    }
+}
+
+@media (min-width: 1200px) {
+    .hide-for-tablet {
+        display: flex;
     }
 }
