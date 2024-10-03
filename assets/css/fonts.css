@@ -12,6 +12,18 @@
 
 @font-face {
   font-family: 'Poppins';
+  font-weight: 500;
+  font-style: normal;
+  src: url('/assets/webfonts/Poppins-Medium.eot');
+  src: url('/assets/webfonts/Poppins-Medium.eot?#iefix') format('embedded-opentype'),
+      url('/assets/webfonts/Poppins-Medium.woff2') format('woff2'),
+      url('/assets/webfonts/Poppins-Medium.woff') format('woff'),
+      url('/assets/webfonts/Poppins-Medium.ttf') format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
   font-weight: 600;
   font-style: normal;
   src: url('/assets/webfonts/Poppins-SemiBold.eot');
