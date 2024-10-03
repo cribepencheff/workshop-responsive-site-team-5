@@ -16,9 +16,9 @@
     color: var(--color-white);
 }
 
-.hero__main, .hero__secondary{
+.hero__main,
+.hero__secondary {
     display: flex;
-
     border: 0.25rem solid var(--color-primary-lt);
     border-radius: 0.5rem;
     background-color: var(--color-white);
@@ -48,7 +48,35 @@
 }
 
 .hero__secondary {
-    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    flex-direction: column;
+}
+
+.hero__secondary p {
+    margin: 0;
+}
+
+.hero__secondary img {
+    max-width: 200px;
+    height: auto;
+    margin: 0 0 -49px -1rem;
+}
+
+@media screen and (min-width: 960px) {
+    .hero__secondary {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .hero__secondary img {
+        order: -1;
+        margin: -1rem 0 -49px -1rem;
+    }
+
+    .hero__secondary .cta {
+        margin-left: auto;
+    }
 }
 
 .hero__footer {
