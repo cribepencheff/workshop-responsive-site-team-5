@@ -1,0 +1,39 @@
+.header {
+    background-color: var(--color-primary);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__nav {
+    display: none;
+}
+
+.fa-magnifying-glass {
+    color: var(--color-primary-ltr);
+}
+
+.nav__list {
+    display: flex;
+    text-decoration: none;
+}
+
+button {
+    display: none;
+}
+
+@media (min-width: 900px) {
+    .header__nav {
+        display: flex;
+        flex-direction: row;
+        color: var(--color-primary-ltr);
+    }
+
+    button {
+        display: flex;
+    }
+
+    .fa-bars {
+        display: none;
+    }
+}
