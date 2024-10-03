@@ -28,7 +28,7 @@
     display: none;
 }
 
-@media (min-width: 950px) {
+@media (min-width: 1085px) {
     .header__nav {
         display: flex;
         flex-direction: row;
@@ -50,8 +50,12 @@
     }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1215px) {
     .hide-for-tablet {
         display: flex;
     }
+}
+
+#search--btn {
+    cursor: pointer;
 }

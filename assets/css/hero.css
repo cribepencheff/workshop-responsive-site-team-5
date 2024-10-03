@@ -101,7 +101,7 @@
     margin: 0 0 -49px -1rem;
 }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 1085px) {
     .hero__secondary {
         flex-direction: row;
         align-items: center;
