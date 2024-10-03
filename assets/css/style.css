@@ -1,0 +1,16 @@
+@import "reset.css";
+@import "base.css";
+@import "fonts.css";
+@import "variables.css";
+@import "typography.css";
+@import "cta.css";
+@import "header.css";
+@import "hero.css";
+
+html {
+  font-size: 18px;
+}
+
+body {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}

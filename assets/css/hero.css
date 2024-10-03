@@ -1,0 +1,149 @@
+.hero {
+    background-color: var(--color-primary);
+    padding: 0 2rem;
+}
+
+.hero__container {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+
+    padding: 2rem 0;
+    gap: 2rem;
+    margin: auto;
+
+    max-width: 50rem;
+}
+
+.hero__header {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.hero__header-img {
+    width: 50px;
+    height: auto;
+}
+
+.hero__title {
+    color: var(--color-white);
+    font-size: 3rem;
+}
+
+.hero__main,
+.hero__secondary {
+    display: flex;
+    border: 0.25rem solid var(--color-primary-lt);
+    border-radius: 0.5rem;
+    background-color: var(--color-white);
+}
+
+.hero__main {
+    flex-flow: column;
+    overflow: hidden;
+}
+
+.hero__main-top {
+    padding: 2rem 1rem;
+    background-color: var(--color-primary-ltr);
+}
+
+.hero__main-bot {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 2rem 1rem;
+    gap: 1rem;
+}
+
+.hero__main-bot .cta {
+    flex-basis: 100%;
+}
+
+.hero__workspace {
+    display: flex;
+    flex-flow: column;
+}
+
+.hero__members {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    font-size: 0.75rem;
+}
+
+.hero__logo {
+    width: 75px;
+    aspect-ratio: 1 / 1;
+}
+
+.hero__avatars {
+    display: flex;
+    flex-flow: row-reverse;
+    align-items: center;
+    padding-left: 2px;
+}
+
+.hero__avatar {
+    width: 20px;
+    aspect-ratio: 1 / 1;
+    margin-left: -4px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.hero__secondary {
+    gap: 1rem;
+    padding: 1rem;
+    flex-direction: column;
+}
+
+.hero__secondary img {
+    max-width: 200px;
+    height: auto;
+    margin: 0 0 -49px -1rem;
+}
+
+@media screen and (min-width: 768px) {
+    .hero__main-bot .cta {
+        flex-basis: 0%;
+    }
+}
+
+@media screen and (min-width: 1085px) {
+    .hero__secondary {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .hero__secondary img {
+        order: -1;
+        margin: -1rem 0 -49px -1rem;
+    }
+
+    .hero__secondary .cta {
+        margin-left: auto;
+    }
+}
+
+.hero__footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.75rem;
+    color: white;
+    font-size: 0.9rem;
+}
+
+.hero__footer-link {
+    color: var(--color-anchor-light);
+    text-decoration: none;
+}
+
+/* BUTTONS */
+
+.cta--default {
+    margin-left: auto;
+}
+

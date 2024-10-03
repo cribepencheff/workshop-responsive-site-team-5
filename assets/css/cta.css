@@ -1,0 +1,43 @@
+.cta {
+  white-space: nowrap;
+}
+
+.cta--large {
+  font-size: 0.85rem;
+  display: inline-block;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.025rem;
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--color-gray);
+  border-radius: var(--radius-md);
+  color: var(--color-white);
+  text-decoration: none;
+  transition: var(--transition-all);
+}
+
+/* Default CTA */
+.cta--default {
+  background-color: var(--color-primary);
+  border-color: var(--color-white);
+}
+
+.cta--default:hover,
+.cta--default:focus {
+  background-color: var(--color-primary-hover);
+  border-color: var(--color-white);
+}
+
+/* Hollow CTA */
+.cta--hollow {
+  font-weight: 500;
+  color: var(--color-primary);
+  background-color: var(--color-white);
+  border-color: currentColor;
+}
+
+.cta--hollow:hover,
+.cta--hollow:focus {
+  border-color: var(--color-primary-hover);
+  box-shadow: 0 0 0 1px var(--color-primary-hover);
+}
