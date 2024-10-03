@@ -1,4 +1,9 @@
 @import "resets.css";
 @import "base.css";
+@import "fonts.css";
 @import "variables.css";
 @import "typography.css";
+
+body {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
