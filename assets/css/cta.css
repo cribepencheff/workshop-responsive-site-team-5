@@ -1,3 +1,6 @@
+.cta {
+  white-space: nowrap;
+}
 
 .cta--large {
   font-size: 0.85rem;
