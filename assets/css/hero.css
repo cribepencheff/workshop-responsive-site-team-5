@@ -1,4 +1,9 @@
 .hero {
+    background-color: var(--color-primary);
+    padding: 0 2rem;
+}
+
+.hero__container {
     display: flex;
     flex-flow: column;
     justify-content: center;
@@ -8,8 +13,6 @@
     margin: auto;
 
     max-width: 50rem;
-
-    background-color: var(--color-primary);
 }
 
 .hero__header {
@@ -26,7 +29,6 @@
 .hero__title {
     color: var(--color-white);
     font-size: 3rem;
-    margin: 0;
 }
 
 .hero__main,
@@ -49,6 +51,7 @@
 
 .hero__main-bot {
     display: flex;
+    /* flex-wrap: wrap; */
     align-items: center;
     padding: 2rem 1rem;
     gap: 1rem;
@@ -90,10 +93,6 @@
     gap: 1rem;
     padding: 1rem;
     flex-direction: column;
-}
-
-.hero__secondary p {
-    margin: 0;
 }
 
 .hero__secondary img {
