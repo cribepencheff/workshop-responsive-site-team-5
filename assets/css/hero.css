@@ -1,9 +1,12 @@
 .hero {
     display: flex;
     flex-flow: column;
-    /* align-items: center; */
+    justify-content: center;
 
+    padding: 2rem 0;
+    gap: 2rem;
     margin: auto;
+
     max-width: 50rem;
 
     background-color: var(--color-primary);
@@ -23,6 +26,7 @@
 
 .hero__main {
     flex-flow: column;
+    overflow: hidden;
 }
 
 .hero__main-top {
